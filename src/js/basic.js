@@ -1,4 +1,5 @@
 // TODO: write your code here
-export default function testFunc(param) {
-  return param;
+export default function sortHP(playersList) {
+  playersList.sort((a, b) => b.health - a.health);
+  return playersList;
 }
